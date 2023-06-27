@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(172, 155, 60);
+   }
+h1 {
+    font-size:60px;
+    color:rgb(115, 26, 127);
+    text-align: center;
+}
+h2 {
+    font-size:35px;
+    text-align: center;
+}
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #2a7724;/*文字色*/
+    background-color: rgb(100, 188, 76);
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    width:600px;
+    border:1px solid black;
+    text-align: center;
+    font-size:50px;
+    object-fit: cover; 
+    display: inline-block;
+    min-height: 1px;
+    min-width: 1px;
+    overflow-clip-margin: content-box;
+        overflow: clip;
+}
+.box3 {
+    background-color: rgb(76, 188, 184);
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #e23313;/*文字色*/
+    border: solid 3px #79b530;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    width:1400px;
+    border:7px solid black;
+    text-align: center;
+    font-size:30px;
+    object-fit: cover; 
+    display: inline-block;
+    min-height: 1px;
+    min-width: 1px;
+}
+
