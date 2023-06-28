@@ -260,14 +260,9 @@
         受理しました。
         動画の表示ができていなくても、こちらで修正します。
         `);
-        const templateVariables = {
-         message: embedCode,
-         };
-        await emailjs.send(
-          'service_382it3s',
-          'template_g290c1r',
-          templateVariables,
-         );
+        emailjs.send("service_382it3s","template_g290c1r",{
+message: ${embedCode},
+});
         $("#pin").append(embedCode);
            
       });
