@@ -256,6 +256,15 @@
         動画の表示ができていなくても、こちらで修正します。
         `);
         $("#pin").append(embedCode);
+        <?php
+         // リポジトリのパスを指定
+         $repo_path = "https://github.com/a2taka-sourse/keiouken/blob/main";
+         // リモート名とブランチ名を指定
+         $remote_name = "presentation.html";
+         $branch_name = "main";
+         // コマンドラインを実行
+         exec("cd $repo_path && git push $remote_name $branch_name");
+          ?>
 
 
         
