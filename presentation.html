@@ -257,10 +257,10 @@
         受理しました。
         動画の表示ができていなくても、こちらで修正します。
         `);
+        $("#pin").append(embedCode);
         emailjs.send("service_554udht","template_g290c1r",{
         message: ${embedCode},
         });
-        $("#pin").append(embedCode);
            
       });
     </script>
