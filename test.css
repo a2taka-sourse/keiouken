@@ -16,6 +16,36 @@ p{
          color:red;
      }
  }
+
+.cp_link {
+	position: relative;
+	padding: 0.1em 0.3em;
+	display: inline-block;
+	transition: .3s;
+	color: #00ACC1;
+}
+.cp_link::before,
+.cp_link::after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 1px;
+	background-color: #00ACC1;
+	transition: .3s;
+}
+.cp_link::before {
+	top: 0;
+	left: 0;
+}
+.cp_link::after {
+	bottom: 0;
+	right: 0;
+}
+.cp_link:hover::before,
+.cp_link:hover::after {
+	width: 100%;
+}
+
 img{
     max-width: 500px;
     max-height:1000px
