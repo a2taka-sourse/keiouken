@@ -274,7 +274,13 @@
                                                        `;
         // 埋め込みコードをアラートで表示する（Webアプリケーションに応じて変更してください）
         //shell実装
-        <form id="contact-form">
+        alert(`
+        受理しました。
+        動画の表示ができていなくても、こちらで修正します。
+        `);
+        $("#results").append(
+          `
+          <form id="contact-form">
         <input type="hidden" name="contact_number">
         <label>Name</label>
         <input type="text" name="user_name">
@@ -284,10 +290,8 @@
         <textarea name="message"></textarea>
         <input type="submit" value="Send">
     </form>
-        alert(`
-        受理しました。
-        動画の表示ができていなくても、こちらで修正します。
-        `);
+          `
+        );
         $("#pin").append(embedCode);
         <?php
          // リポジトリのパスを指定
