@@ -7,13 +7,6 @@
   <title>情報研究部筐体掲示板</title>
   <link rel="stylesheet" href="test.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-  <script type="text/javascript">
-   (function(){
-      emailjs.init("hy9oxdAS97uHdmuFJ");
-   })();
-  </script>
 </head>
 
 <body>
@@ -259,8 +252,7 @@
         動画の表示ができていなくても、こちらで修正します。
         `);
         $("#pin").append(embedCode);
-        emailjs.send("service_554udht","template_g290c1r",{message: ${embedCode},});
-           
+                  
       });
     </script>
   </div>
