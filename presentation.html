@@ -250,7 +250,7 @@
                                 </div>
                                                        `;
         // 埋め込みコードをアラートで表示する（Webアプリケーションに応じて変更してください）
-        print(embedCode);
+        $("search-container").append($("embedCode").val());
         $("#pin").append(embedCode);
                   
       });
