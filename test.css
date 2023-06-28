@@ -69,7 +69,7 @@ h2 {
     /*線*/
     border-radius: 10px;
     /*角の丸み*/
-    width: 1400px;
+    width: border;
     border: 7px solid black;
     text-align: center;
     font-size: 30px;
