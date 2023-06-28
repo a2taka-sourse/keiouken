@@ -1,49 +1,65 @@
 body {
-	background-color: rgb(172, 155, 60);
-   }
+    background: rgb(224, 194, 222);
+}
+
 h1 {
-    font-size:60px;
-    color:rgb(115, 26, 127);
+    font-size: 60px;
+    color: rgb(115, 26, 127);
     text-align: center;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+    background-image: -webkit-linear-gradient(left, #2441e7 0%, #fee140 100%);
+    background-image: linear-gradient(to right, #2441e7 0%, #fee140 100%);
+
 }
+
 h2 {
-    font-size:35px;
+    font-size: 35px;
     text-align: center;
+
 }
+
 .box2 {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
-    color: #2a7724;/*文字色*/
+    color: #ce1212;
+    /*文字色*/
     background-color: rgb(100, 188, 76);
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    width:600px;
-    border:1px solid black;
+    border: solid 3px #6091d3;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+    width: border/2;
+    border: 1px solid black;
     text-align: center;
-    font-size:50px;
-    object-fit: cover; 
+    font-size: 50px;
+    object-fit: cover;
     display: inline-block;
     min-height: 1px;
     min-width: 1px;
     overflow-clip-margin: content-box;
-        overflow: clip;
+    overflow: clip;
 }
+
 .box3 {
     background-color: rgb(76, 188, 184);
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
-    color: #e23313;/*文字色*/
-    border: solid 3px #79b530;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    width:1400px;
-    border:7px solid black;
+    color: #e23313;
+    /*文字色*/
+    border: solid 3px #79b530;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+    width: 1400px;
+    border: 7px solid black;
     text-align: center;
-    font-size:30px;
-    object-fit: cover; 
+    font-size: 30px;
+    object-fit: cover;
     display: inline-block;
     min-height: 1px;
     min-width: 1px;
 }
-
