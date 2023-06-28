@@ -1,6 +1,21 @@
-body {
-    background: rgb(224, 194, 222);
+p{
+    background-color: black;
+    color: white;
 }
+
+@media screen and (max-width: 768px) {
+    p{
+        background-color: black;
+         color:green;
+     }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    p{
+        background-color: black;
+         color:red;
+     }
+ }
 
 h1 {
     font-size: 60px;
