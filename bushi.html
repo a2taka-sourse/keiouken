@@ -9,10 +9,11 @@
 </head>
 
 <body>
-    <img src="bushi_top.jpg" class="top" alt="部誌">
+    <img src="bushi_top.jp" class="top" alt="部誌">
 
-    <ul class="row">
-        <img src="yajin_top.jpg" class="sumb">
+    <div class="square_contents">
+    <a href="ホンモノ野人論.pdf"><img src="yajin_top.jpg" class="sumb"></a>
+        </div><ul class="row">
 
         <h2><span>野人研究部誌</span></h2>
             <button id="btn1">ビュー</button>
@@ -28,13 +29,44 @@
                 </div>
             </div>
             <button>
-                <a href="yajin_top.jpg" type= "button" download="yajin_survey">ダウンロード</a>
+                <a href="ホンモノ野人論.pdf" type= "button" download="yajin_survey">ダウンロード</a>
             </button>
 
+    <a ><img src="./02.jpg"></a>
+    <a ><img src="./03.jpg"></a>
+    </div>
+ 
 
     </ul>
     
     <style>
+         .square_contents {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 600px;
+            }
+
+            .square_contents a {
+                display: block;
+                position: relative;
+                width: 31%;
+                margin: 1%;
+            }
+
+            .square_contents a::before {
+                content: "";
+                display: block;
+                padding-top: 100%;
+            }
+
+            .square_contents img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                object-fit: cover;
+            }
+
         body {
             background-image: url(bushi_header.jpg);
             /* 背景画像指定 */
